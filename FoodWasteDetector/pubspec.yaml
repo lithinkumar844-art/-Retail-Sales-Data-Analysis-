@@ -1,0 +1,35 @@
+name: food_waste_detector
+description: AI-powered food freshness and waste detection app.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+  image: ^4.2.0
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  sqflite: ^2.3.3+1
+  tflite_flutter: ^0.11.0
+  fl_chart: ^0.68.0
+  firebase_core: ^3.4.0
+  cloud_firestore: ^5.4.0
+  firebase_messaging: ^15.1.0
+  flutter_local_notifications: ^17.2.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/food_freshness_model.tflite
+    - assets/labels.txt
