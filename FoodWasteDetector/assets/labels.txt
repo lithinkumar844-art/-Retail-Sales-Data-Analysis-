@@ -1,0 +1,6 @@
+FreshApple
+FreshBanana
+FreshOrange
+RottenApple
+RottenBanana
+RottenOrange
